@@ -11,7 +11,7 @@ import ClamJam from './components/ClamJam';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path ="/"                         element = {<Home/>}/>
       <Route path = "/Projects"                element = {<Projects/>}/>
