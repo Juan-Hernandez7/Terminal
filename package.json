@@ -2,7 +2,7 @@
   "name": "terminal",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://Juan-Hernandez7.github.io/Terminal-Site.git" ,
+  "homepage": "http://Juan-Hernandez7.github.io/Terminal",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,9 +14,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
